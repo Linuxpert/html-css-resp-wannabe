@@ -80,6 +80,8 @@ img {
   #lezioni .row .right {
     float: none;
     margin: 0 auto;
+    font-size: 25px;
+    margin-top: 30px;
   }
     
 }
@@ -91,6 +93,8 @@ img {
   #steps .row .right {
     float: none;
     margin: 0 auto;
+    font-size: 25px;
+    margin-top: 30px;
   }
     
 }
@@ -102,8 +106,16 @@ img {
   #why .row>.third {
     width: 50%;
     margin: 0 auto;
+    font-size: 25px;
+    margin-top: 30px;
   }
     
+}
+
+@media all and (max-width: 420px) {
+  .container {
+    width: 1000px;
+  }
 }
 
 
