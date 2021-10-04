@@ -71,3 +71,13 @@ img {
 .clear {
   clear: both;
 }
+
+/* inizio media query */
+
+@media all and (min-width: 420px) {
+
+  #lezioni .row .left {
+    float: none;
+  }
+    
+}
