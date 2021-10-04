@@ -74,10 +74,12 @@ img {
 
 /* inizio media query */
 
-@media all and (min-width: 420px) {
+@media all and (max-width: 420px) {
 
-  #lezioni .row .left {
+  #lezioni .row .left,
+  #lezioni .row .right {
     float: none;
+    margin: 0 auto;
   }
     
 }
