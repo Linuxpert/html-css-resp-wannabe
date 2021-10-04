@@ -83,3 +83,27 @@ img {
   }
     
 }
+
+@media all and (max-width: 420px) {
+
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right {
+    float: none;
+    margin: 0 auto;
+  }
+    
+}
+
+@media all and (max-width: 420px) {
+
+  #why .row .first, 
+  #why .row .second,
+  #why .row>.third {
+    width: 50%;
+    margin: 0 auto;
+  }
+    
+}
+
+
